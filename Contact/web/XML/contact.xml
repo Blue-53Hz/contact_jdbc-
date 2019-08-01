@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<contact-list>
+
+    <contact id="001">
+
+        <name>张三</name>
+        <gender>男</gender>
+        <phone>1234444</phone>
+        <email>zhangsan@qq.com</email>
+        <address>辽宁沈阳</address>
+    </contact>
+
+</contact-list>
+
+</configuration>

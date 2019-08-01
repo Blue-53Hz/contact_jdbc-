@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+<servlet>
+        <servlet-name>listAllContact</servlet-name>
+        <servlet-class>gz.itcast.contactSys_web.web.ContactListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>listAllContact</servlet-name>
+        <url-pattern>/listALLContact</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddContact</servlet-name>
+        <servlet-class>gz.itcast.contactSys_web.web.ContactAdd</servlet-class>
+        
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddContact</servlet-name>
+        <url-pattern>/ContactAdd</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ConDelServlet</servlet-name>
+        <servlet-class>gz.itcast.contactSys_web.web.ConDelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConDelServlet</servlet-name>
+        <url-pattern>/ConDelServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ConUpdateServlet</servlet-name>
+        <servlet-class>gz.itcast.contactSys_web.web.ConUpdateServlet</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConUpdateServlet</servlet-name>
+        <url-pattern>/ConUpdateServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ConBatchDelServlet</servlet-name>
+        <servlet-class>gz.itcast.contactSys_web.web.ConBatchDelServlet</servlet-class>
+
+    </servlet>
+
+<servlet-mapping>
+    <servlet-name>ConBatchDelServlet</servlet-name>
+    <url-pattern>/ConBatchDelServlet</url-pattern>
+</servlet-mapping>
+    <servlet>
+        <servlet-name>ConQueryServlet</servlet-name>
+        <servlet-class>gz.itcast.contactSys_web.web.ConQueryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConQueryServlet</servlet-name>
+        <url-pattern>/ConQueryServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
